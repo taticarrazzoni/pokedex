@@ -1,0 +1,18 @@
+<div class="container mt-3">
+    <div class="row">
+        <div class="col-md-5 mx-auto">
+            <app-error-msg></app-error-msg>
+            <div class="card">
+                <div class="card-header">
+                    <strong>Name:</strong> {{verPoke.name}} - <strong>ID:</strong> {{verPoke.id}}
+                </div>
+                <div class="card-body">
+                    <img width="150" src="{{verPoke.sprites.front_default}}" alt="{{verPoke.name}}">
+                </div>
+                <div class="card-footer">
+                    <button type="button" class="btn btn-sm ml-1" routerLink="/">voltar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
